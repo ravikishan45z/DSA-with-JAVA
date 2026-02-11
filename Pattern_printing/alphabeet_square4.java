@@ -1,4 +1,3 @@
-package Pattern_printing;
 import java.util.Scanner;
 public class alphabeet_square4 {
     public static void main(String[] args) {

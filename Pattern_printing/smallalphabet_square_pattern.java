@@ -1,4 +1,3 @@
-package Pattern_printing;
 import java.util.Scanner;
 public class smallalphabet_square_pattern {
 

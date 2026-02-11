@@ -1,4 +1,3 @@
-package Pattern_printing;
 import java.util.Scanner;;
 public class x_pattern {
     public static void main(String[] args) {

@@ -1,5 +1,3 @@
-package Pattern_printing;
-
 import java.util.Scanner;
 
 public class ploys_traingle {

@@ -1,4 +1,3 @@
-package Pattern_printing;
 import java.util.Scanner;
 public class number_square_pattern2{
 

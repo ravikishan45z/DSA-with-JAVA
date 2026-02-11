@@ -1,5 +1,3 @@
-package Pattern_printing;
-
 import java.util.Scanner;
 
 public class reverse_traingle {

@@ -1,7 +1,4 @@
-package Pattern_printing;
-
 import java.util.Scanner;
-
 public class alphabet_traingle {
 
     public static void main(String[] args) {
