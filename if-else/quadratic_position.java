@@ -18,5 +18,7 @@ public class quadratic_position {
         } else {
             System.out.println("Fourth Quadrant");
         }
+
+        sc.close();
     }
 }

@@ -16,5 +16,6 @@ public class alphabeet_square4 {
                 }
                 System.out.println();
         }
+        sc.close();
     }
 }

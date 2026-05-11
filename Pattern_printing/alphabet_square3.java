@@ -13,5 +13,6 @@ public class alphabet_square3 {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

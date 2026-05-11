@@ -31,5 +31,6 @@ public class Palidrome_arr {
             System.out.println("Not Palidrome Array.");
         }
 
+    sc.close();
     }
 }

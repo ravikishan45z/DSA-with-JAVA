@@ -13,5 +13,6 @@ public class ploys_traingle {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

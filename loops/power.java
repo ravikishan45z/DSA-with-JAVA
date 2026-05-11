@@ -12,5 +12,6 @@ public class power {
             result*=a;
         }
         System.out.println(result);
+        sc.close();
     }
 }

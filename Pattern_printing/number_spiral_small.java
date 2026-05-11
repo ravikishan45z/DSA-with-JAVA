@@ -17,6 +17,6 @@ public class number_spiral_small {
             }
             System.out.println();
         }
-
+        sc.close();
     }
 }

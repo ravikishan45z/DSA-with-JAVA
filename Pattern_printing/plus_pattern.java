@@ -16,5 +16,6 @@ public class plus_pattern {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

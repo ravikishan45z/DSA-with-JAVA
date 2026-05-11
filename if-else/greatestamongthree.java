@@ -19,5 +19,7 @@ public class greatestamongthree {
         } else {
             System.out.print(z + " (Z) is Greatest");
         }
+
+        sc.close();
     }
 }

@@ -17,5 +17,7 @@ public class magnatitude {
         else{
             System.out.println("No is not smaller than input no.");
         }
+
+        sc.close();
     }
 }

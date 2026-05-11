@@ -16,6 +16,6 @@ public class piramid_pattern {
             }
             System.out.println();
         }
-
+        sc.close();
     }
 }

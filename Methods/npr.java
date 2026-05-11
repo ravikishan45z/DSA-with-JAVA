@@ -10,6 +10,7 @@ public class npr {
 
         int npr = fact(n) / fact(n-r);
         System.out.print("nPr = " + npr);
+        sc.close();
     }
     public static int fact(int x) {
         int f = 1;

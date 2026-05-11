@@ -12,5 +12,6 @@ public class reverse_traingle {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

@@ -12,5 +12,6 @@ public class alphabet_square_pattern {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

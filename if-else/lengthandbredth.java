@@ -15,5 +15,6 @@ public class lengthandbredth {
         else{
             System.out.println("Perimeter is greater than it's Area");
         }
+        sc.close();
     }
 }

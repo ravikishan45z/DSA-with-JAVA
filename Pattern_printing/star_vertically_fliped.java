@@ -18,5 +18,6 @@ public class star_vertically_fliped {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

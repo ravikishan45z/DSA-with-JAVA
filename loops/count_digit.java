@@ -14,5 +14,7 @@ public class count_digit {
             count++;
         }
         System.out.println(count);
+    
+        sc.close();
     }
 }

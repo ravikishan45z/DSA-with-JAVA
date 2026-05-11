@@ -16,5 +16,8 @@ public class patter1 {
             }
             System.out.println();
         }
+        
+        sc.close();
     }
+
 }

@@ -15,6 +15,6 @@ public class binary_pattern {
             }
             System.out.println();
         }
-
+        sc.close();
     }
 }

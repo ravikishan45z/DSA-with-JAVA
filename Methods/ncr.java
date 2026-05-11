@@ -10,6 +10,8 @@ public class ncr {
 
         int ncr = fact(n) / (fact(r) * fact(n - r));
         System.out.print("nCr = " + ncr);
+
+        sc.close();
     }
 
     public static int fact(int x) {

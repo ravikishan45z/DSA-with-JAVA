@@ -16,5 +16,6 @@ public class up_traingle {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

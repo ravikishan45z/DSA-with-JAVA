@@ -24,5 +24,6 @@ public class odd_traingle {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

@@ -19,5 +19,6 @@ public class down_traingle {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

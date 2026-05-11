@@ -16,6 +16,6 @@ public class rectangle_pattern {
             }
             System.out.println();
         }
-
+        sc.close();
     }
 }

@@ -12,6 +12,6 @@ public class square_pattern {
             }
             System.out.println();
         }
-
+        sc.close();
     }
 }

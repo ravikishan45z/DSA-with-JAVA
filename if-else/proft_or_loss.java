@@ -19,5 +19,7 @@ public class proft_or_loss {
         else{
             System.out.println(sp-cp+"Rs Made Profit");
         }
+
+        sc.close();
     }
 }

@@ -15,5 +15,6 @@ public class x_pattern {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

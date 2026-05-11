@@ -17,5 +17,6 @@ public class bridge_pattern {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

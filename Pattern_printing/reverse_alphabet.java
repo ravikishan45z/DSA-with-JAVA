@@ -15,5 +15,6 @@ public class reverse_alphabet {
             a--;
             System.out.println();
         }
+        sc.close();
     }
 }

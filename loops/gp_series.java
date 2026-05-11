@@ -14,5 +14,6 @@ public class gp_series {
             System.out.println(a);
             a = a*r;
         }
+        sc.close();
     }
 }

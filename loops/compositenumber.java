@@ -10,5 +10,6 @@ public class compositenumber {
                 System.out.print(i+" ");
             }
         }
+        sc.close();
     }
 } 

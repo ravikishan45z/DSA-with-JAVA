@@ -14,5 +14,7 @@ public class check_four_digit {
         else{
             System.out.println("Given no is not a 4 digit no.");
         }
+
+        sc.close();
     }
 }

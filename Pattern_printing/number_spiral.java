@@ -19,6 +19,6 @@ public class number_spiral {
             }
             System.out.println();
         }
-
+        sc.close();
     }
 }

@@ -20,5 +20,8 @@ public class divide {
         else{
             System.out.println("Number is not divisable by 5 and 3.");
         }
+    
+        sc.close();
     }
+
 }

@@ -18,5 +18,8 @@ public class side_of_trainge {
         else{
             System.out.println("Can't be side of a Traingle");
         }
+    
+        sc.close();
     }
+
 }

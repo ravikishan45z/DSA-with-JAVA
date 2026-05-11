@@ -18,5 +18,6 @@ public class no_and_char_pattern {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

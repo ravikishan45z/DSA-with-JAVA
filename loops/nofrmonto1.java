@@ -10,6 +10,8 @@ public class nofrmonto1 {
         for(int i = n; i >= 1; i--)
         {
             System.out.println(i);
+        
         }
+        sc.close();
     }
 }

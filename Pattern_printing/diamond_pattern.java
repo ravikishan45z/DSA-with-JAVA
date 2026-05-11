@@ -31,5 +31,6 @@ public class diamond_pattern {
             nst = nst - 2;
             System.out.println();
         }
+        sc.close();
     }
 }

@@ -18,5 +18,7 @@ public class pdivisableby5 {
             System.out.println("NO is not divisale by 5");
         }
 
+        sc.close();
     }
+
 }

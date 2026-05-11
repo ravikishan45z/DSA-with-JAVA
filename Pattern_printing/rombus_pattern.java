@@ -16,5 +16,6 @@ public class rombus_pattern {
             }
             System.out.println();
         }
+        sc.close();
     }
 } 

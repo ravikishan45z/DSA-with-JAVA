@@ -8,5 +8,8 @@ public class ap_series {
         for(int i = 2; i<(3*n-1);i=i+3){
             System.err.println(i);
         }
+    
+        sc.close();
     }
+
 }

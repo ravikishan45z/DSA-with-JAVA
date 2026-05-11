@@ -12,5 +12,7 @@ public class number_square_pattern2{
             }
             System.out.println();
         }
+        sc.close();
+
     }
 }

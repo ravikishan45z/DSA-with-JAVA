@@ -19,5 +19,6 @@ public class no_vertically_fliped {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

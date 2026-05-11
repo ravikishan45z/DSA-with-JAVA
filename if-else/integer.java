@@ -11,5 +11,7 @@ class integer {
        else{
            System.out.println(n);
        }
+
+       sc.close();
     }
 }
