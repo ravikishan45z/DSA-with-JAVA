@@ -24,6 +24,8 @@ public class linearSearch {
             System.out.println("Element Exist in the array at index : "+ flag);
         else
             System.out.println("Element not exist");
+
+        sc.close();
     }
 
     public static void input(int[] arr,int size) {
@@ -32,6 +34,7 @@ public class linearSearch {
         for (int i = 0; i < size; i++) {
             arr[i] = sc.nextInt();
         }
+        sc.close();
     }
 
     public static void print(int[] arr, int size) {
@@ -41,4 +44,5 @@ public class linearSearch {
         }
         System.out.println();
     }
+    
 }

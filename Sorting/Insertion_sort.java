@@ -29,5 +29,6 @@ public class Insertion_sort {
             System.out.print(ele+" ");
         }
 
+        sc.close();
     }
 }

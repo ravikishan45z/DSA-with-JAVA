@@ -17,5 +17,7 @@ public class minimum {
             }
         }
         System.out.print("Minimum value : "+min);
+
+        sc.close();
     }
 }

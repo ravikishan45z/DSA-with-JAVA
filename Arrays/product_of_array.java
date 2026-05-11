@@ -12,5 +12,7 @@ public class product_of_array {
             product = product * arr[i];
         }
         System.out.println("Product of the Array :" + product);
+
+        sc.close();
     }
 }

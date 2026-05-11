@@ -15,5 +15,6 @@ public class max_element {
             }
         }
         System.out.print("Max element : " + max);
+        sc.close();
     }
 }

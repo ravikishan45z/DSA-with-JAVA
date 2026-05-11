@@ -8,8 +8,6 @@ public class rotate_d_elements {
         System.out.print("Enter d:");
         int d = sc.nextInt();
         int[] arr = new int[size];
-        int start;
-        int end;
         System.out.print("Enter array Elements : ");
         for (int i = 0; i < size; i++) {
             arr[i] = sc.nextInt();
@@ -21,6 +19,8 @@ public class rotate_d_elements {
         for (int i = 0; i < size; i++) {
             System.out.print(arr[i]+" ");
         }
+
+        sc.close();
     }
 
     public static void swap(int[] arr, int start, int end) {

@@ -19,6 +19,7 @@ public class multiply_and_add {
         System.out.println();
         System.out.print("Arrays elements After : ");
         print(arr, size);
+        sc.close();
     }
 
     public static void input(int[] arr, int size) {
@@ -27,6 +28,7 @@ public class multiply_and_add {
         for (int i = 0; i < size; i++) {
             arr[i] = sc.nextInt();
         }
+        sc.close();
     }
 
     public static void print(int[] arr, int size) {

@@ -18,5 +18,7 @@ public class print_negative_no {
                 System.out.print(arr[i] + " ");
             }
         }
+
+        sc.close();
     }
 }

@@ -15,5 +15,6 @@ public class sum_of_array {
             sum = sum + arr[i];
         }
         System.out.print("Sum of Array : " + sum);
+        sc.close();
     }
 }

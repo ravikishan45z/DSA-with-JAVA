@@ -23,6 +23,8 @@ public class reverse_array {
             System.out.print(arr[i] + " ");
         }
 
+        sc.close();
+
     }
 
     public static void swap(int[] arr, int start, int end) {

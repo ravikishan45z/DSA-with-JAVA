@@ -26,5 +26,8 @@ public class second_max {
         
         System.out.println("Maximum : "+max);
         System.out.println("Second Mximum : "+smax);
+    
+        sc.close();
     }
+
 }
