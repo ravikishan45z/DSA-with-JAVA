@@ -11,17 +11,26 @@ public class transpose {
                 arr[i][j] = sc.nextInt();
             }
         }
-        for (int i = 1; i <= arr.length; i++) {
+        // Before operation
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print(arr[i][j] + " ");
+            }
+            System.out.println();
+        }
+
+        for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < i; j++) {
                 int temp = arr[i][j];
                 arr[i][j] = arr[j][i];
                 arr[j][i] = temp;
             }
         }
-
+        System.out.println();
+        // After operation
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                System.out.print(arr[i][j]);
+                System.out.print(arr[i][j]+ " ");
             }
             System.out.println();
         }

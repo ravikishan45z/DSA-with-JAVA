@@ -15,20 +15,20 @@ public class arrayfile {
             }
         }
 
-        // for (int i = 0; i < 3; i++) {
-        //     for (int j = 0; j < 3; j++) {
-        //         System.out.print(arr[i][j]+" ");
-        //         sum += arr[i][j];
-        //         if(arr[i][j] > max){
-        //             max = arr[i][j];
-        //             idx = i;
-        //         }
-        //     }
-        //     System.out.println();
-        // }
-        // System.out.println(sum);
-        // System.out.println(max);
-        // System.out.println(idx);
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print(arr[i][j]+" ");
+                sum += arr[i][j];
+                if(arr[i][j] > max){
+                    max = arr[i][j];
+                    idx = i;
+                }
+            }
+            System.out.println();
+        }
+        System.out.println(sum);
+        System.out.println(max);
+        System.out.println(idx);
 
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
