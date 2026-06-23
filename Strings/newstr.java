@@ -14,6 +14,8 @@ public class newstr {
         // }
 
         System.out.println(s.equals(t));
+        System.out.println(s);
+        
 
     }
 }
