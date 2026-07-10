@@ -30,7 +30,7 @@ class MyStack {
         size--;
         return x;
     }
-
+    
     public void push(int val){
         Node temp = new Node(val);
         if(temp == null){
