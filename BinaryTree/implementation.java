@@ -1,5 +1,16 @@
 package BinaryTree;
 
+
+// Demo: Binary tree operations (size, sum, product, traversals, height)
+// Contains helper methods and traversal examples used in `main`.
+// Tasks:
+// - Display tree (preorder)
+// - Compute size (node count)
+// - Compute sum of node values
+// - Compute product of node values
+// - Find maximum node value
+// - Compute tree height (levels)
+// - Show traversals: preorder, inorder, postorder
 class Node {
     int val; // Value stored in the current node
     Node left; // Reference to the left child
@@ -37,16 +48,23 @@ public class implementation {
         c.right = g;
 
         // Call methods to display, count, sum, and multiply values in the tree
-        display(a);
-        System.out.println(); // new line
-        System.out.println(size(a)); // size of binary tree
-        System.out.println(sum(a)); // sum of all node values
-        System.out.println(Product(a)); // product of all node values
-        System.out.println(maxInBinaryTree(a)); //Maximum in the binary Tree.
+        display(a); // Preorder display: root -> left -> right
+        System.out.println(); // new line for readability
+        System.out.println(size(a)); // prints size (number of nodes) of the binary tree
+        System.out.println(sum(a)); // prints sum of all node values
+        System.out.println(Product(a)); // prints product of all node values
+        System.out.println(maxInBinaryTree(a)); // prints maximum value in the binary tree
+        System.out.println(levels(a)); // prints number of levels (height) of the tree
+
+        preOrder(a);
+        System.out.println();
+        inOrder(a);
+        System.out.println();
+        postOrder(a);
     }
 
     private static void display(Node root) {
-        // Preorder traversal: root -> left -> right
+        // Task: Display tree (preorder traversal) — root -> left -> right
         if (root == null) {
             return;
         }
@@ -55,12 +73,12 @@ public class implementation {
         display(root.right);
     }
     private static int size(Node root) {
-        // Count the total number of nodes in the tree
+        // Task: Compute size — count total number of nodes
         return (root == null) ? 0 : 1 + size(root.left) + size(root.right);
     }
 
     private static int sum(Node root) {
-        // Add the values of all nodes in the tree
+        // Task: Compute sum — add values of all nodes
         if (root == null) {
             return 0;
         }
@@ -68,7 +86,7 @@ public class implementation {
     }
 
     private static int Product(Node root) {
-        // Multiply the values of all nodes in the tree
+        // Task: Compute product — multiply values of all nodes
         if (root == null) {
             return 1;
         }
@@ -76,9 +94,49 @@ public class implementation {
     }
 
     private static int maxInBinaryTree(Node root){
+        // Task: Find maximum value in the binary tree
         if(root == null){
             return Integer.MIN_VALUE;
         }
         return Math.max(root.val, Math.max(maxInBinaryTree(root.left), maxInBinaryTree(root.right)));
+    }
+
+    private static int levels(Node root) { // Very important
+        // Task: Compute height (number of levels) of the tree
+        if(root == null){
+            return 0;
+        }
+        return 1 + Math.max(levels(root.left), levels(root.right));
+    }
+
+    private static void preOrder(Node root) {
+        // Task: Preorder traversal (root, left, right)
+        if (root == null) {
+            return;
+        }
+        System.out.print(root.val + " ");
+        preOrder(root.left);
+        preOrder(root.right);
+    }
+
+    private static void inOrder(Node root) {
+        // Task: Inorder traversal (left, root, right)
+        if (root == null) {
+            return;
+        }
+        inOrder(root.left);
+        System.out.print(root.val + " ");
+        inOrder(root.right);
+
+    }
+
+    private static void postOrder(Node root) {
+        // Task: Postorder traversal (left, right, root)
+        if (root == null) {
+            return;
+        }
+        postOrder(root.left);
+        postOrder(root.right);
+        System.out.print(root.val + " ");
     }
 }
