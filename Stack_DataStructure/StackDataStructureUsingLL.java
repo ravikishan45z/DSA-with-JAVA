@@ -33,12 +33,8 @@ class MyStack {
     
     public void push(int val){
         Node temp = new Node(val);
-        if(temp == null){
-            head = temp;
-        }else{
-            temp.next = head;
-            head = temp;
-        }
+        temp.next = head;
+        head = temp;
         size++;
     }
     
